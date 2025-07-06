@@ -1,0 +1,27 @@
+{
+  "name": "blog-platform-app",
+  "version": "1.0.0",
+  "description": "This project is the backend for a Blog Platform developed with Node.js. The platform allows users to create, read, update, and delete blog posts. Users can also comment on posts, and posts can be categorized using tags.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boriscetkovic1/blog-platform-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boriscetkovic1/blog-platform-app/issues"
+  },
+  "homepage": "https://github.com/boriscetkovic1/blog-platform-app#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
+    "nodemon": "^3.1.10"
+  }
+}
